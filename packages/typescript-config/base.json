@@ -1,6 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@max-ui/typescript-config/*": ["packages/typescript-config/*"]
+    },
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
